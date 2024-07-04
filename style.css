@@ -1,0 +1,142 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: row; /* Optional since it's the default */
+  align-items: center; /* Vertically center the items in the box */
+  justify-content: space-between; /* Adjust as needed */
+  gap: 10px;
+}
+.box ol {
+  display: flex;
+  flex-direction: row; /* Optional since it's the default */
+  align-items: center; /* Vertically center the items in the box */
+  justify-content: space-between; /* Adjust as needed */
+  gap: 10px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.box:first-child {
+  margin-right: auto;
+}
+
+.box:last-child {
+  margin-left: auto;
+}
+
+.menu-icon {
+  padding-right: 20px;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  color: #0a0a1a;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+* {
+  /* outline: limegreen 2px solid; */
+}
+
+body {
+  margin: 0px;
+}
+
+.home-logo.box {
+  /* background-color: red; */
+  display: block;
+  height: 100%;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.text {
+  text-align: center;
+  color: #3d3d3d;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.no-deco {
+  text-decoration: none;
+}
+
+.white {
+  color: white;
+}
+
+footer {
+  background-color: #0a0a1a;
+}
+
+.flex {
+  display: flex;
+}
+.block {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.emphasis-bold-text {
+  width: 400px;
+  height: 136px;
+  color: white;
+  font-size: 67.5px;
+  font-family: FuturaBT-BoldItalic, FuturaBT, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 54px;
+  word-wrap: break-word;
+  font-style: italic;
+}
+
+.emphasis-bold-text2 {
+  width: 700px;
+  height: 136px;
+  color: white;
+  font-size: 67.5px;
+  font-family: FuturaBT-BoldItalic, FuturaBT, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 54px;
+  word-wrap: break-word;
+  font-style: italic;
+}
+
+.globe {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 10px;
+  margin: 10px auto;
+  width: max-content;
+}
+
+.gray-divider {
+  border: 0; /* Remove the default border */
+  height: 1px; /* Set the height of the divider */
+  background-color: #cccccc; /* Set the color of the divider to gray */
+  margin: 10px 0; /* Add some vertical space around the divider */
+}
+
+.para-modify {
+  max-width: 600px;
+}
